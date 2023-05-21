@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "mO5j2pUUNI452yCPwwfRJliQqkk+26lmK7i4ZKZXcwK+itfjtRFKvkoIQKXhlPgeuIjmdYVAwOicV5mQvBfovg==",
+  "success": true,
+  "projectFilePath": "/Users/maria.anufrieva/Desktop/Диплом/diploma/src/Anufrieva.Maria.Core/Anufrieva.Maria.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/maria.anufrieva/.nuget/packages/acr.userdialogs/7.2.0.564/acr.userdialogs.7.2.0.564.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/fody/6.6.4/fody.6.6.4.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/mvvmcross/8.0.2/mvvmcross.8.0.2.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/propertychanged.fody/4.1.0/propertychanged.fody.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

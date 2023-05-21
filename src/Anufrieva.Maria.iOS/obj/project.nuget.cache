@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "hQaBGHmAev945V8wIJ6CRK9W27XFeUT/mhGJrMYTw/6qOJLKomOSAZWlbubfx/Z8hLQiz0P/czW4zZGZWLQmMg==",
+  "success": true,
+  "projectFilePath": "/Users/maria.anufrieva/Desktop/Диплом/diploma/src/Anufrieva.Maria.iOS/Anufrieva.Maria.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/maria.anufrieva/.nuget/packages/acr.userdialogs/7.2.0.564/acr.userdialogs.7.2.0.564.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/btprogresshud/1.3.5/btprogresshud.1.3.5.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/cirrious.fluentlayout/2.9.0/cirrious.fluentlayout.2.9.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/fody/6.6.4/fody.6.6.4.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/microsoft.extensions.logging/2.0.0/microsoft.extensions.logging.2.0.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/microsoft.extensions.options/2.0.0/microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/microsoft.extensions.primitives/2.0.0/microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/mvvmcross/8.0.2/mvvmcross.8.0.2.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/propertychanged.fody/4.1.0/propertychanged.fody.4.1.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/serilog/2.8.0/serilog.2.8.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/serilog.extensions.logging/3.0.1/serilog.extensions.logging.3.0.1.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/serilog.sinks.xamarin/0.2.0.64/serilog.sinks.xamarin.0.2.0.64.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "/Users/maria.anufrieva/.nuget/packages/system.runtime.compilerservices.unsafe/4.4.0/system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

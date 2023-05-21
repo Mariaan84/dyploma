@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddSupportRequestViewController">
+            <connections>
+                <outlet property="DescriptionLabel" destination="q2G-Eu-O1c" id="MVb-t7-qQj"/>
+                <outlet property="PostButton" destination="VID-ff-VhH" id="YvB-1y-exm"/>
+                <outlet property="TitleLabel" destination="LCy-VL-uWl" id="IH2-yx-Jcg"/>
+                <outlet property="view" destination="vZ4-a4-McR" id="4sU-du-kwn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vZ4-a4-McR">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Request name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LCy-VL-uWl">
+                    <rect key="frame" x="17" y="74" width="361" height="34"/>
+                    <color key="textColor" name="Text/Black"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" name="Separator_bars"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write short description for the ad..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="q2G-Eu-O1c">
+                    <rect key="frame" x="17" y="123" width="361" height="135"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="135" id="JJF-fT-SXf"/>
+                    </constraints>
+                    <color key="textColor" name="Text/Black"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" name="Separator_bars"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VID-ff-VhH">
+                    <rect key="frame" x="17" y="779" width="361" height="54"/>
+                    <color key="backgroundColor" name="Transparent/Dark purple/75%"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="son-3f-6hx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <color key="tintColor" name="Background/LightBlue"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
+                    <state key="normal" title="Post"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="tintColor" name="Text/Black"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LCy-VL-uWl" secondAttribute="trailing" constant="15" id="61B-ED-7Hm"/>
+                <constraint firstItem="q2G-Eu-O1c" firstAttribute="leading" secondItem="LCy-VL-uWl" secondAttribute="leading" id="ALB-kX-GDs"/>
+                <constraint firstItem="VID-ff-VhH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="17" id="Nui-SI-NVl"/>
+                <constraint firstItem="LCy-VL-uWl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="OYO-Ca-KZP"/>
+                <constraint firstItem="LCy-VL-uWl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="17" id="Vqi-jj-xXF"/>
+                <constraint firstItem="q2G-Eu-O1c" firstAttribute="top" secondItem="LCy-VL-uWl" secondAttribute="bottom" constant="15" id="WG1-vN-gO4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VID-ff-VhH" secondAttribute="trailing" constant="15" id="dCu-Qb-MuT"/>
+                <constraint firstItem="VID-ff-VhH" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="15" id="jJa-Qq-yvV"/>
+                <constraint firstItem="q2G-Eu-O1c" firstAttribute="trailing" secondItem="LCy-VL-uWl" secondAttribute="trailing" id="sje-kh-3bX"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="153"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Background/LightBlue">
+            <color red="0.99215686274509807" green="0.99607843137254903" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Separator_bars">
+            <color red="0.90588235294117647" green="0.92549019607843142" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text/Black">
+            <color red="0.14509803921568629" green="0.18823529411764706" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Transparent/Dark purple/75%">
+            <color red="0.38039215686274508" green="0.40000000000000002" blue="0.9137254901960784" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

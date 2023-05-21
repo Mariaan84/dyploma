@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{6E3AB8B5-ACD0-4C56-8274-CCC2ED388116}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Anufrieva.Marria.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Anufrieva.Maria.iOS</AssemblyName>
+    <ProvisioningType>manual</ProvisioningType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchExtraArgs>--linkskip=Anufrieva.Marria.Core</MtouchExtraArgs>
+    <MtouchSdkVersion>13.6</MtouchSdkVersion>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchExtraArgs>--linkskip=Anufrieva.Marria.Core</MtouchExtraArgs>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchExtraArgs>--linkskip=Anufrieva.Marria.Core</MtouchExtraArgs>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <MtouchExtraArgs>--linkskip=Anufrieva.Marria.Core</MtouchExtraArgs>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bindings\PropertyBindings\PropertyBindings.cs" />
+    <Compile Include="Bindings\PropertyBindings\PropertyBindingsExtension.cs" />
+    <Compile Include="Bindings\SegmentControl\SegmentControlSegmentsBinding.cs" />
+    <Compile Include="Bindings\SegmentControl\SegmentControlSelectedSegmentBinding.cs" />
+    <Compile Include="Bindings\BarButtonItem\BarButtonItemActionBinding.cs" />
+    <Compile Include="Cells\SupportRequest\SupportRequestCell.cs" />
+    <Compile Include="Cells\SupportRequest\SupportRequestCell.designer.cs">
+      <DependentUpon>SupportRequestCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\DateTimeConverter.cs" />
+    <Compile Include="Linker\LinkerPleaseInclude.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Styles\ColorPalette.cs" />
+    <Compile Include="Views\AddSupportRequest\AddSupportRequestViewController.cs" />
+    <Compile Include="Views\AddSupportRequest\AddSupportRequestViewController.designer.cs">
+      <DependentUpon>AddSupportRequestViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SupportRequests\SupportRequestsViewController.cs" />
+    <Compile Include="Views\SupportRequests\SupportRequestsViewController.designer.cs">
+      <DependentUpon>SupportRequestsViewController.cs</DependentUpon>
+    </Compile>
+    <ImageAsset Include="Media.xcassets\Action\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Action\Purple\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Action\Purple\Dark.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Action\Purple\Light.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Action\Purple\Medium.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\1024.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\114.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\120.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\180.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\29.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\40.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\57.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\58.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\60.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\80.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\87.png" />
+    <ImageAsset Include="Media.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Media.xcassets\Avatar_placeholder.imageset\Avatar_placeholder.pdf" />
+    <ImageAsset Include="Media.xcassets\Avatar_placeholder.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Background\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Background\Light.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Background\LightBlue.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Background\Notifications.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Background\Sheets &amp; pop-ups.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Bookmark.imageset\Bookmark.pdf" />
+    <ImageAsset Include="Media.xcassets\Bookmark.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Empty.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Empty.imageset\Empty.pdf" />
+    <ImageAsset Include="Media.xcassets\Envelope.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Envelope.imageset\Envelope.pdf" />
+    <ImageAsset Include="Media.xcassets\LaunchImage.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\LaunchImage.imageset\LaunchImage.pdf" />
+    <ImageAsset Include="Media.xcassets\Map.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Map.imageset\Map.pdf" />
+    <ImageAsset Include="Media.xcassets\Plus.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Plus.imageset\plus.pdf" />
+    <ImageAsset Include="Media.xcassets\PrimaryBackground.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Separator_bars.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Text\Black.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Text\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Text\Gray (Dark).colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Text\Gray.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Dark purple\60%.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Dark purple\75%.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Dark purple\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Grey 20%.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Light purple\30%.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Light purple\6%.colorset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\Transparent\Light purple\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+    <InterfaceDefinition Include="Cells\SupportRequest\SupportRequestCell.xib" />
+    <InterfaceDefinition Include="Views\AddSupportRequest\AddSupportRequestViewController.xib" />
+    <InterfaceDefinition Include="Views\SupportRequests\SupportRequestsViewController.xib" />
+    <None Include="Info.plist">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Entitlements.plist" />
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+    <Compile Include="Views\BaseViewController.cs" />
+    <InterfaceDefinition Include="LaunchScreen.storyboard">
+      <SubType>Designer</SubType>
+    </InterfaceDefinition>
+    <ImageAsset Include="Media.xcassets\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anufrieva.Maria.Core\Anufrieva.Maria.Core.csproj">
+      <Project>{6a57547e-cd15-4f82-8387-6f6b5c82f57c}</Project>
+      <Name>Anufrieva.Maria.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs">
+      <Version>7.2.0.564</Version>
+    </PackageReference>
+    <PackageReference Include="Cirrious.FluentLayout">
+      <Version>2.9.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions">
+      <Version>5.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross">
+      <Version>8.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Serilog.Extensions.Logging">
+      <Version>3.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Serilog.Sinks.Xamarin">
+      <Version>0.2.0.64</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+  </Target>
+</Project>

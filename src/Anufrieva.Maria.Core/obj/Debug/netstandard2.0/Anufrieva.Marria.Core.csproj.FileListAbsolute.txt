@@ -1,0 +1,12 @@
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/bin/Debug/netstandard2.0/Anufrieva.Marria.Core.deps.json
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/bin/Debug/netstandard2.0/Anufrieva.Marria.Core.dll
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/bin/Debug/netstandard2.0/Anufrieva.Marria.Core.pdb
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.csproj.AssemblyReference.cache
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.AssemblyInfoInputs.cache
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.AssemblyInfo.cs
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.csproj.CoreCompileInputs.cache
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.csproj.Fody.CopyLocal.cache
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.csproj.Fody.RuntimeCopyLocal.cache
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.dll
+/Users/aliyailina/RiderProjects/Anufrieva.Marria/src/Anufrieva.Marria.Core/obj/Debug/netstandard2.0/Anufrieva.Marria.Core.pdb
